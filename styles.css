@@ -1,0 +1,90 @@
+* {
+ border: 1px solid red;
+}
+
+
+html {
+ box-sizing: border-box;
+ font: impact, sans-serif;
+}
+
+
+body {
+   background-color: darkgreen;
+}
+
+
+.pickle {
+ background: green;
+ color: green;
+ width: 100px;
+ height: 300px;
+ border-radius: 30%;
+}
+
+
+.little-p {
+ width: 50px;
+ height: 150px;
+}
+
+
+nav > ul {
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+align-items: center;
+padding-inline-start: 0;
+margin-block: 0;
+height: 100%;
+font-size: 3rem;
+list-style: none;
+}
+
+
+.pickle-line {
+ border-right: 2px solid darkgreen;
+ height: 73px;
+ width: 5px;
+ position: relative;
+ right: -40px;
+ z-index: 6;
+}
+
+
+.l1 {
+ height: 40px;
+ right: -10px;
+}
+
+
+.l3 {
+ height: 30px;
+ right: -60px;
+}
+
+
+.l4 {
+ height: 40px;
+ right: -25px;
+}
+
+
+.l5 {
+ height: 100px;
+ right: -55px;
+}
+
+
+@media only screen and (max-width: 400px) {
+ section {
+   width: 200px;
+ }
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+* {
+  scroll-behavior: smooth
+ };
+}
